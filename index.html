@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Imran N · Front-end ninja in training" />
+    <meta name="description" content="Front-end developer portfolio." />
+    <meta
+      name="keywords"
+      content="portfolio, web, front-end, developer, development"
+    />
+    <meta name="author" content="Imran" />
+
+    <!-- title -->
+    <title>Imran N · Front-end ninja in training</title>
+
+    <!-- open graph -->
+    <meta property="og:title" content="Imran N · Front-end ninja in training" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Front-end developer portfolio." />
+    <meta property="og:image" content="/pictures/ninja-og.jpg" />
+    <meta property="og:url" content="https://imrannhuda.github.io/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/queries.css" />
+  </head>
+
+  <body>
+    <!-- loading screen -->
+    <div class="loading-screen">
+      <img src="/pictures/shuriken.png" alt="a shuriken" />
+    </div>
+
+    <!-- overlay -->
+    <div class="overlay hidden"></div>
+
+    <!-- navigation -->
+    <nav class="navigation">
+      <button class="btn-hero">Imran N</button>
+      <button class="btn-portfolio">Portfolio</button>
+    </nav>
+
+    <!-- hero section -->
+    <main class="hero">
+      <header class="hero-elements">
+        <img src="/pictures/ninja.png" alt="a ninja" class="profile-pic" />
+        <h1 class="profile-name">Imran N</h1>
+        <h2 class="profile-description"></h2>
+        <div class="profile-links">
+          <a href="https://github.com/imrannhuda">
+            <ion-icon name="logo-github"></ion-icon>
+            <span>GitHub</span>
+          </a>
+          <a href="https://twitter.com/imrannhuda">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </header>
+    </main>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+      <!-- project 1 -->
+      <div class="project project-1">
+        <figure>
+          <img
+            src="/portfolio/project-01/desktop-easyebooks.png"
+            alt="project screenshot"
+          />
+          <figcaption>Easyebooks</figcaption>
+        </figure>
+      </div>
+
+      <!-- project 1 modal -->
+      <div class="modal hidden">
+        <button class="close-modal">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <table>
+          <tr>
+            <td>Project name:</td>
+            <td>Easyebooks</td>
+          </tr>
+          <tr>
+            <td>Type of website:</td>
+            <td>Landing page</td>
+          </tr>
+          <tr>
+            <td>Technologies used:</td>
+            <td>HTML, CSS, jQuery</td>
+          </tr>
+          <tr>
+            <td>Highlight skills:</td>
+            <td>CSS, copywriting</td>
+          </tr>
+          <tr class="external-links">
+            <td>External links:</td>
+            <td>
+              <a href="https://github.com/imrannhuda/easyebooks"
+                >View the code</a
+              >
+              or
+              <a href="https://imrannhuda.github.io/easyebooks/"
+                >visit the website</a
+              >
+            </td>
+          </tr>
+          <tr class="mobile-view">
+            <td>Mobile view:</td>
+            <td>
+              <img
+                src="/portfolio/project-01/mobile-easyebooks.png"
+                alt="project in mobile view"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- project 2 -->
+      <div class="project project-2">
+        <figure>
+          <img
+            src="/portfolio/project-02/desktop-lorem-ipsum.png"
+            alt="project screenshot"
+          />
+          <figcaption>Lorem Ipsum Tribute Page</figcaption>
+        </figure>
+      </div>
+
+      <!-- project 2 modal -->
+      <div class="modal hidden">
+        <button class="close-modal">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <table>
+          <tr>
+            <td>Project name:</td>
+            <td>Lorem Ipsum Tribute Page</td>
+          </tr>
+          <tr>
+            <td>Type of website:</td>
+            <td>Tribute page</td>
+          </tr>
+          <tr>
+            <td>Technologies used:</td>
+            <td>HTML, CSS</td>
+          </tr>
+          <tr>
+            <td>Highlight skills:</td>
+            <td>CSS</td>
+          </tr>
+          <tr class="external-links">
+            <td>External links:</td>
+            <td>
+              <a href="https://github.com/imrannhuda/lorem-ipsum-tribute"
+                >View the code</a
+              >
+              or
+              <a href="https://imrannhuda.github.io/lorem-ipsum-tribute/"
+                >visit the website</a
+              >
+            </td>
+          </tr>
+          <tr class="mobile-view">
+            <td>Mobile view:</td>
+            <td>
+              <img
+                src="/portfolio/project-02/mobile-lorem-ipsum.png"
+                alt="project in mobile view"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- project 3 -->
+      <div class="project project-3">
+        <figure>
+          <img
+            src="/portfolio/project-03/desktop-guess-my-number.png"
+            alt="project screenshot"
+          />
+          <figcaption>Guess My Number!</figcaption>
+        </figure>
+      </div>
+
+      <!-- project 3 modal -->
+      <div class="modal hidden">
+        <button class="close-modal">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <table>
+          <tr>
+            <td>Project name:</td>
+            <td>Guess my number!</td>
+          </tr>
+          <tr>
+            <td>Type of website:</td>
+            <td>JavaScript game</td>
+          </tr>
+          <tr>
+            <td>Technologies used:</td>
+            <td>HTML, CSS, JavaScript</td>
+          </tr>
+          <tr>
+            <td>Highlight skills:</td>
+            <td>JavaScript, CSS</td>
+          </tr>
+          <tr class="external-links">
+            <td>External links:</td>
+            <td>
+              <a href="https://github.com/imrannhuda/guess-my-number"
+                >View the code</a
+              >
+              or
+              <a href="https://imrannhuda.github.io/guess-my-number/"
+                >visit the website</a
+              >
+            </td>
+          </tr>
+          <tr class="mobile-view">
+            <td>Mobile view:</td>
+            <td>
+              <img
+                src="/portfolio/project-03/mobile-guess-my-number.png"
+                alt="project in mobile view"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>

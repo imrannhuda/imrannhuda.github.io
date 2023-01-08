@@ -1,0 +1,107 @@
+@media (max-width: 900px) {
+  .modal {
+    min-width: 780px;
+  }
+}
+
+@media (max-width: 800px) {
+  .modal {
+    min-width: 680px;
+  }
+}
+
+@media (max-width: 700px) {
+  .profile-pic {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .modal {
+    min-width: 580px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .navigation button,
+  .profile-description,
+  .profile-links ion-icon,
+  .profile-links span,
+  .project figure figcaption {
+    font-size: 1rem;
+  }
+
+  .profile-description::after {
+    width: 1rem;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .project figure img,
+  .project figure figcaption {
+    max-width: 500px;
+  }
+
+  .modal {
+    min-width: 480px;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .project figure img,
+  .project figure figcaption {
+    max-width: 400px;
+  }
+
+  .modal {
+    min-width: 380px;
+  }
+
+  .mobile-view {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-pic {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .project figure img,
+  .project figure figcaption {
+    max-width: 300px;
+  }
+
+  .modal {
+    min-width: 280px;
+  }
+
+  .modal td,
+  .modal td a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .project figure img,
+  .project figure figcaption {
+    max-width: 250px;
+  }
+
+  .modal td,
+  .modal td a {
+    font-size: 0.6rem;
+  }
+}
