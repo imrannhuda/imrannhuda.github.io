@@ -53,6 +53,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .profile-links {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 500px) {
   .profile-pic {
     max-width: 150px;
